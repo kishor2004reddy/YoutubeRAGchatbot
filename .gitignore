@@ -1,7 +1,26 @@
-# Byte-compiled / optimized / DLL files
+# Environment variables
+.env
+
+# Vector databases
+chroma_db/
+
+# Python cache
 __pycache__/
-*.py[codz]
-*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
 
 # C extensions
 *.so
