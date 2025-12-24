@@ -76,32 +76,37 @@ youtube_rag_app/
 ## ⚙️ Installation
 
 Clone the repository  
+```cmd
 git clone https://github.com/your-username/YouTubeRAGchatbot.git  
-cd YouTubeRAGchatbot  
+cd YouTubeRAGchatbot
+```
 
 Create virtual environment  
+```cmd
 conda create -n yt_rag python=3.10  
-conda activate yt_rag  
+conda activate yt_rag
+```
 
 Install dependencies  
+```cmd
 pip install -r requirements.txt  
-
+```
 ---
 
 ## 🔐 Environment Variables
 
 Create a `.env` file in the root directory:
-
+```python
 GROQ_API_KEY=your_groq_api_key  
 HUGGINGFACE_TOKEN=your_huggingface_token  
 LANGCHAIN_API_KEY=your_langchain_api_key  
-
+```
 ---
 
 ## ▶️ Running the App Locally
-
+```cmd
 streamlit run app.py  
-
+```
 Open in browser:  
 http://localhost:8501  
 
